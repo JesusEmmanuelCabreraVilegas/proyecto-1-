@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <title>tienda</title>
+</head>
+<body>
+  <div style="margin: 24;"> 
+    <nav class="nav navbar-light"
+    style="background-color: rgb(126, 216, 255);">
+    
+       <div class="container">
+        <a class="nav-brand" href="index.html" style="font-family: Arial, Helvetica, sans-serif;">Inicio</a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="nav navbar-nav">
+                <li class="nav-item dropdown">
+                  
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial, Helvetica, sans-serif;">unidad 1</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="perfil.html">perfil</a><br>
+                        <a class="dropdown-item" href="calculadora.html">calculadora</a><br>
+                        <a class="dropdown-item" href="tienda.html">restaurante</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial, Helvetica, sans-serif;">unidad 2</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="tiendapedido1.html">tienda pedido 1</a><br>
+                        <a class="dropdown-item" href="json.html">json</a><br>
+                        <a class="dropdown-item" href="tiendapedido2.html">tienda pedido 2</a>
+                      </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-family: Arial, Helvetica, sans-serif;">unidad 3</a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="basededatos.html">base de datos</a><br>
+                        <a class="dropdown-item" href="peliculas.html">peliculas</a>
+                      </div>
+                </li>
+            </ul>
+          </div>
+       </div>
+    </nav>
+</div>
+
+<div style="margin:24px">
+</div> 
+    <h1>menu</h1>
+    <style>
+        img{
+            width: 200px;
+            height: auto;
+        }
+        table, th, td{
+          border: 1px solid rgb(255, 0, 0);
+          text-align: left;
+          padding: 10px;
+        }
+        table{
+          width: 80%;
+          margin: 20px;
+          border-collapse: collapse;
+          box-shadow: 0 5px 15px rgb(0, 0, 0);
+          margin-left: 50px;
+        }
+        tr:nth-child(even){
+          background-color: rgb(120, 241, 249)
+        }
+        tr:nth-child(odd){
+          background-color: rgb(255, 186, 186)
+        }
+        tr:hover{
+          background-color: rgb(255, 255, 255);
+        }
+    </style>
+    <h1>Bebidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/aguas.jpeg" alt="aguas"></td>
+            <td><p>aguistas frescas de sabores</p></td>
+            <td>$30 pesos</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/bebida energizante.jpg" alt="amper"></td>
+            <td>amper energy drink</td>
+            <td>$25 pesos</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/botellas.jpg" alt="botellas"></td>
+            <td>botellas de licor de calidad</td>
+            <td>$799 pesos</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/coquita.jpg" alt="coca"></td>
+            <td>refresa de coca cola</td>
+            <td>$15 pesos</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/jugos.jpg" alt="jugos"></td>
+          <td>jugos ricos naturales</td>
+           <td>$30 pesos</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/shots.jpg" alt="Licor"></td>
+          <td>3 shots del mejor tequila</td>
+           <td>$99 pesos</td>
+        </tr>
+    </table>
+
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/cafe.jpg" alt="cafe"></td>
+            <td><p>frutas y verduras y pan con cafe</p></td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/cafe2.jpg" alt="cafe2"></td>
+            <td>pan y jugo natural con cafe</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/hot cakes.jpg" alt="hot cakes"></td>
+            <td>hot cakes con huevo y tocino</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/huevo.jpg" alt="huevo"></td>
+            <td>huevitos estrellados de la granja</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pan.jpg" alt="pan"></td>
+          <td>pan tostado con frutas y jugo natural</td>
+           <td>$30</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pan2.jpg" alt="pan2"></td>
+          <td>pan tostado con huevo y tocino</td>
+           <td>$45</td>
+        </tr>
+    </table>
+
+    <h1>Aperitivos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/garbanzos.jpg" alt="garbanzos"></td>
+            <td><p>garbanzos fritos </p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/huevito.jpg" alt="huevo duro"></td>
+            <td>huevos duros con verduras arriba</td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/mariquita.jog.jpg" alt="mariquita"></td>
+            <td>pan tostado con mariquita de tomate y mas verduras</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/rollos.jpg" alt="rollos"></td>
+            <td>rollitos de sanwich</td>
+            <td>$35</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/sanwich.jpg" alt="sanwich"></td>
+          <td>sanwich frito </td>
+           <td>$65</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/tomatito.jpg" alt="tomatito"></td>
+          <td>pequenos tomates para abrir apetito</td>
+           <td>$30</td>
+        </tr>
+    </table>
+
+    <h1>Platos Fuertes</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/albondigas.jpg" alt="albondigas"></td>
+            <td><p>albondigas con caldo muy ricas</p></td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/camarones.jpg" alt="camarones"></td>
+            <td>camarones fritos</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/carne.jpg" alt="carne"></td>
+            <td>carne con verduras y papas</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/nugets.jpg" alt="nugets"></td>
+            <td>nugets con cama de lechuga y porcion de papas</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pescado.jpg" alt="pescado"></td>
+          <td>pescado empanizado con arroz y verduras</td>
+           <td>$70</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pollo.jpg" alt="pollo"></td>
+          <td>pollo a la plancha con verduras</td>
+           <td>$70</td>
+        </tr>
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/ensalada.jpg" alt="ensalada"></td>
+            <td><p>ensalada con carne de res y especias</p></td>
+            <td>$85</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/lasana.jpg" alt="lasana"></td>
+            <td>rica lasana con 4 quesos y carne molida</td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/macarrones.jpg" alt="macarrones"></td>
+            <td>macarrones con el queso de su preferencia</td>
+            <td>$65</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/pasta.jpg" alt="pasta"></td>
+            <td>pasta perfecta para noche romantica</td>
+            <td>$80</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pollofrito.jpg" alt="pollofrito"></td>
+          <td>pollo frito con un dorado espectacular</td>
+           <td>$120</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/tacos.jpg" alt="tacos"></td>
+          <td>ricos tacos de bistec a la plancha</td>
+           <td>$90</td>
+        </tr>
+    </table>
+
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/fresas.jpg" alt="fresas"></td>
+            <td><p>fresas cubiertas de chocolate amargo y blanco</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/gelatina.jpg" alt="gelatina"></td>
+            <td>gelatina de fresa con jarabe de fresa</td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/pay de limon.jpg" alt="paylimon"></td>
+            <td>pay de limon cremoso</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/pay.jpg" alt="pay"></td>
+            <td>pay de queso con frambuesas y crema batida</td>
+            <td>$30</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/pastel.jpg" alt="pastel"></td>
+          <td>pastel de extra chocolate</td>
+           <td>$40</td>
+        </tr>
+        <tr>
+          <td><img src="imagenes/fresas con crema.jpg" alt="fresasconcrema"></td>
+          <td>ricas fresas con crema</td>
+           <td>$85</td>
+        </tr>
+    </table>
+
+</body>
+</html>
